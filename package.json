@@ -1,0 +1,29 @@
+{
+  "name": "err410.pw",
+  "version": "0.0.0",
+  "description": "My homepage @ err410.pw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bapr5/err410.pw.git"
+  },
+  "keywords": [
+    "homepage"
+  ],
+  "author": "arseny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bapr5/err410.pw/issues"
+  },
+  "homepage": "https://github.com/bapr5/err410.pw#readme",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.105.4"
+  }
+}
