@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div>Header</div>
+    <div className="text-teal-500">Header</div>
   )
 }
