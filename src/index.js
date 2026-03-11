@@ -4,8 +4,20 @@ import Header from "./components/Header/Header";
 import './style.css';
 
 function App() {
+  const prefersLight = window.matchMedia("(prefers-color-scheme: light)");
+
+function applyTheme() {
+  if (prefersLight.matches) {
+    document.body.classList.add("light");
+  } else {
+    document.body.classList.remove("light");
+  }
+}
+
+applyTheme();
+prefersLight.addEventListener("change", applyTheme);
   return (
-    <div>
+    <div id="base">
       <Header />
     </div>
   );
